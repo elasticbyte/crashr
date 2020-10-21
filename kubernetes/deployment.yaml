@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: crashr
+spec:
+  selector:
+    matchLabels:
+      app: crashr
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: chrashr
+    spec:
+      containers:
+      - name: crashr
+        image: crashr:latest
