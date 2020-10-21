@@ -10,8 +10,8 @@ spec:
   template:
     metadata:
       labels:
-        app: chrashr
+        app: crashr
     spec:
       containers:
       - name: crashr
-        image: crashr:latest
+        image: nodesocket/crashr:latest

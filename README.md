@@ -4,4 +4,4 @@ A Node.js script that immediately exits with a non-zero exit code, simulating a 
 
 ### Docker image
 
-There is a public Docker image for crashr hosted on Docker Hub at  `@nodesocket/crashr:latest`. 
+There is a public Docker image for crashr hosted on Docker Hub at  `nodesocket/crashr:latest`. 
