@@ -1,2 +1,3 @@
 # crashr
-A Node.js script that immediately exits with a non-zero exit code, simulating a crashing container.
+
+A Node.js script that immediately exits with a non-zero exit code, simulating a crashing container. Useful for testing and debugging in [Docker](https://www.docker.com) and [Kubernetes](https://kubernetes.io) environments.
